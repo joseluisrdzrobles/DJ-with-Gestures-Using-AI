@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DJ con Gestos Usando IA</title>
+
+    <link rel="shortcut icon" href="DJ icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="bg-dark heading text-white"> Sea un DJ 🎶💿
+        <br>
+        <span class="note">NOTA: Mueve tu muñeca izquierda y derecha para cambiar el volumen y la velocidad de la musica</span>
+    </h1>
+    <br>
+
+    <button class="play_music" onclick="playMusic()"> Reproducir musica </button>
+    <br>
+    <div class="float-right">
+        <img src="disk.gif">
+        <br>
+        <button class="speed">Velocidad</button>
+    </div>
+    <div class="float-left">
+        <img src="disk.gif">
+        <br>
+        <button class="volume">Volumen</button>
+    </div>
+    <script src="main.js"></script>
+</body> 
+
+</html>

@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background: url("dj_club.jpg");
+    background-size: cover;
+}
+
+.heading {
+    margin: 0 auto;
+    width: fit-content;
+    
+}
+
+.note {
+    font-size: 25px;
+    
+}
+
+.play_music {
+    font-size: 25px !important;
+    border-radius: 10px !important;
+    color: white !important;
+    background-color: #283578 !important;
+}
+
+div img {
+    width: 200px;
+}
+
+.speed {
+    background-color: red !important;
+    border-radius: 10px !important;
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.volume {
+    background-color: rgb(0, 196, 0) !important;
+    border-radius: 10px !important;
+    color: white !important;
+    font-size: 20px !important;
+}
